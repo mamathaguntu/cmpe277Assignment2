@@ -1,6 +1,6 @@
 package cmpe277.sjsu.edu.newsapp.API
 
-import cmpe277.sjsu.edu.newsapp.NewsResponse
+import cmpe277.sjsu.edu.newsapp.models.NewsResponse
 import cmpe277.sjsu.edu.newsapp.util.Keys
 import retrofit2.Response
 import retrofit2.http.GET
