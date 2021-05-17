@@ -24,11 +24,11 @@ click on the search and specify a kweyword( example - stock or covid)
 
 <img src ="https://user-images.githubusercontent.com/2658837/118467015-4868d680-b6b8-11eb-9cdc-dac5ad3416a5.png" width="300" height="600"/>
 
-- Components
--- Created 3 fragments - listing the news , detailed view and search news 
--- Created response class using retrofit for the response of api 
--- Created data entity class for the news articles details
--- Used live data to get and search the news articles
+### Components
+- Created 3 fragments - listing the news , detailed view and search news 
+- Created response class using retrofit for the response of api 
+- Created data entity class for the news articles details
+- Used live data to get and search the news articles
 
 All the news articles are retrived from NEWSAPI.org
 
