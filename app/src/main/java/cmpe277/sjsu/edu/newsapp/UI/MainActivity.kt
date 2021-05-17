@@ -2,6 +2,7 @@ package cmpe277.sjsu.edu.newsapp.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val bottomNavigationView : BottomNavigationView = findViewById(R.id.bottomNavigationView)
-        val newsNavHostFragment: NavHostFragment = findViewById(R.id.newsNavHostFragment)
-        bottomNavigationView.setupWithNavController(newsNavHostFragment.findNavController())
+
+        bottomNavigationView.setupWithNavController(Navigation.findNavController(this, R.id.newsNavHostFragment))
     }
 }
